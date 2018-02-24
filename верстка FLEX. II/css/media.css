@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px)
-{#wrapper_nav{width: 98vw};
+{#wrapper_nav, #black_wrapper {width: 98vw};
  
 }
 @media screen and (max-width: 1035px)

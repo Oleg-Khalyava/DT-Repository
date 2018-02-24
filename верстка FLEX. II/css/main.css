@@ -72,6 +72,31 @@ header nav li a {
 	font-size: 1.3rem;
 	color: #fff;
 }
+/* блок black блока header (основной банер с кнопками перехода)
+*
+*
+*/
+#black {background-color: #222836}
+#black_banner {
+	width: 88.33%;
+}
+#black_banner h3{
+	font-size: 1.4rem;
+	color: #9aaeb7;
+	margin-top: 21.33%
+}
+#black_banner h1 {
+	font-size: 4.0rem;
+	line-height: 2.5rem;
+	color: #fff;
+	text-align: center;
+	margin: 15.63% 5%
+}
+#black_banner h1 span {font-size: 2.0rem}
+#black_banner>div {
+	width:50px;
+    margin: 6.67% 0 5.97% 0 }
+#black_banner>div img{width:14px}
 
 /*классы общего использования блоками
 *
@@ -87,7 +112,7 @@ header nav li a {
 *
 *
 */
-
+.flex-col {flex-direction: column;}
 
 .flex-wr-bt-c {
 	display: flex;
@@ -102,4 +127,18 @@ header nav li a {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+}
+.flex-wr-start-c {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content:center;
+}
+.flex-nwr-start-c {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content:center;
 }
