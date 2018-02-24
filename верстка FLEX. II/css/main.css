@@ -1,0 +1,105 @@
+*{
+	font-family: Arial;
+	box-sizing: border-box
+}
+html{
+	font-size: 10px;
+	line-height: 10px;
+	color: black
+}
+
+#logo{flex-basis: 150px;
+    margin-right: 4.35%}
+#logo h3 {
+	font-size: 2.0rem;
+	color: #161920;
+	font-weight: bold
+}
+#registr {
+	font-size: 1.4rem;
+	color: #9ba4b0;
+	flex-basis: 460px;
+	min-width: 300px;
+	border-top: 1px solid #9ba4b0;
+	border-bottom: 1px solid #9ba4b0;
+	margin: 2.45% 0
+}
+#registr h2 {
+	flex-basis: 64.13%;
+	padding-left: 17.4%
+}
+#registr span {color: #484e57
+}
+#registr button {
+	flex-basis: 13.04%;
+	padding:0;
+	margin: 2.17% 0;
+}
+
+/*Блок онсовной навигации страницы
+*
+*
+*/
+header nav {position: relative;}
+#button_menu {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #ff8261;
+	padding: 1.55% 0;
+	visibility: hidden;
+	position: absolute
+}
+header nav ul{list-style: none;
+background-color: #ff8261;
+transition: height 800ms}
+header nav ul:hover {
+	height: auto;
+}
+header nav li{
+	flex-basis: 10%;
+	min-width: 95px;
+	text-align: center;
+	height: 5vw;
+	max-height: 58px;
+	transition: background-color 500ms	
+} 
+header nav li:hover {background-color: #52cbf8}
+header nav li a {
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: #fff;
+}
+
+/*классы общего использования блоками
+*
+*
+*определяет размер блоков, являющихся обертками, для установки ширины
+ контента страницы и позиционирования по центру
+*/
+.size {width: 1160px;
+	margin: 0 auto;
+}
+.width100 {flex-basis: 100%}
+/* FLEX
+*
+*
+*/
+
+
+.flex-wr-bt-c {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content:center;
+}
+.flex-wr-c-c {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
