@@ -83,20 +83,77 @@ header nav li a {
 #black_banner h3{
 	font-size: 1.4rem;
 	color: #9aaeb7;
-	margin-top: 21.33%
+	margin: 20.99% 0 15.14%
 }
 #black_banner h1 {
 	font-size: 4.0rem;
 	line-height: 2.5rem;
 	color: #fff;
 	text-align: center;
-	margin: 15.63% 5%
+	margin: 0 5%
 }
 #black_banner h1 span {font-size: 2.0rem}
 #black_banner>div {
 	width:50px;
-    margin: 6.67% 0 5.97% 0 }
+    margin: 6.54% 0 5.86% 0 }
 #black_banner>div img{width:14px}
+
+/*Блок BLUE0 основного блока (БЛОКА MAIN) 
+*
+*
+*/
+#blue {background-color: #e7f4f8}
+#wrapper_search_form {padding: 3.62vw 0 6.5vw 0}
+#search_domain {width: 132px}
+#search_form {
+	flex-basis:85.48vw;
+	max-width: 991.5px;
+	min-width: 695px;
+	align-self: flex-end
+	 }
+#search_form form {
+	flex-basis: 67.67vw;
+	max-width: 785px;
+	min-width: 550px;
+}
+#search_form input {
+	flex-basis: 37.06vw;
+	max-width:430px;
+	min-width: 300px;
+	height: 4.75vw;
+	max-height: 55px;
+	min-height: 40px;
+	color: #a0a9b6;
+	font-size: 1.4rem;
+	border: 1px solid #dfeef3
+}
+#search_form input::placeholder {color: #a0a9b6}
+#search_form select {
+	flex-basis:14.22vw; 
+	max-width:165px;
+	min-width: 115px;
+	height: 4.75vw;
+	max-height: 55px;
+	min-height: 40px;
+	color: #a0a9b6;
+	font-size: 1.4rem;
+	border: 1px solid #dfeef3
+}
+
+#search_form button {
+	flex-basis:16.81vw;
+	max-width: 195px;
+	min-width: 135px;
+	height: 4.75vw;
+	max-height: 55px;
+	min-height: 40px;
+	background-color: #ff8261;
+	color: #fff;
+	font-size: 1.4rem;
+	border: none;
+	box-shadow: none;
+	padding:0 6px
+}
 
 /*классы общего использования блоками
 *
@@ -108,6 +165,17 @@ header nav li a {
 	margin: 0 auto;
 }
 .width100 {flex-basis: 100%}
+
+.block_logo  h2 {
+		font-size: 3.0rem;
+		line-height: 3.1rem;
+		color: #556b72
+}
+.block_logo h2:first-line{
+	font-size: 1.8rem;
+	color: #859aa1
+}
+
 /* FLEX
 *
 *
@@ -119,7 +187,7 @@ header nav li a {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	align-content:center;
+	align-content: center;
 }
 .flex-wr-c-c {
 	display: flex;
@@ -132,6 +200,13 @@ header nav li a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	align-items: center;
+	align-content:center;
+}
+.flex-nwr-bt-c {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 	align-items: center;
 	align-content:center;
 }
