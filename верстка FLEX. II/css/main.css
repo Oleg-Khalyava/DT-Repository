@@ -98,7 +98,7 @@ header nav li a {
     margin: 6.54% 0 5.86% 0 }
 #black_banner>div img{width:14px}
 
-/*Блок BLUE0 основного блока (БЛОКА MAIN) 
+/*Блок BLUE основного блока (БЛОКА MAIN) 
 *
 *
 */
@@ -150,16 +150,125 @@ header nav li a {
 	background-color: #ff8261;
 	color: #fff;
 	font-size: 1.4rem;
+	font-weight: bold;
+	border: none;
+	box-shadow: none;
+	padding:0 6px
+}
+/*Блок Benefits 
+*
+*
+*/
+#white2 {background-color: #fff}
+#wrapper_benefits_logo {margin-top: 6.21vw}
+#wrapper_benefits {margin:3.45vw 0 9.97vw}
+#wrapper_benefits div {
+	flex-basis: 29.74vw;
+	max-width: 345px;
+	min-width: 215px
+}
+#wrapper_benefits div img {width: 70px}
+#wrapper_benefits div div {
+	flex-basis: : 21.12vw;
+	max-width: 245px;
+	margin-bottom: 5.6vw
+}
+#wrapper_benefits div div h1  {
+	font-size: 1.6rem;
+	line-height: 3.1rem;
+	color: #556b72
+}
+#wrapper_benefits div div p  {
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+	color: #a0a9b6
+}
+/* блок Features (pink)
+*
+*
+*/
+#pink {background-color: #fffbde}
+#wrapper_features_content {padding: 6.89vw 0 10.6vw 0}
+#wrapper_hot_content {
+	width: 358px;
+    margin: 0 2vw 
+}
+#hot {
+	background-color: #fff;
+	padding:7.82% 11.73% 10.06% 7.26%;
+	margin-top: 2.84vw;
+	outline: 2px solid #fffbde;
+	outline-offset: -13px;
+
+	}
+#hot h2:first-child {
+	width: 208px;
+	font-size: 4.8rem;
+	font-weight: bold; 
+	color: #52cbf8
+}
+#hot h2:first-child::first-line {
+	font-size: 1.4rem;
+	line-height: 1.4rem;
+	color: #97947f
+}
+#hot h2:first-child span {
+	color: #ff8261;}
+#hot h2:last-child {
+	font-size: 1.7rem;
+	line-height: 2.0rem;
+	font-weight: bold; 
+	color: #4c515b;
+}
+#hot h2:last-child::first-line {color: #97947f}
+#features {
+	width:57.76vw;
+	max-width: 670px;
+	min-width: 208px
+}
+#description_1_2 {
+	flex-basis: 40.78vw;
+	max-width: 473px; 
+	min-width:440px;
+}
+#description_1 {
+	flex-basis: 17.93vw;
+	max-width: 208px;
+	min-width: 208px;
+	margin-top: 1vw 
+}
+#description_2 {
+	flex-basis: 165px;
+	max-width: 165px;
+	min-width: 165px
+}
+.description summary {
+	font-size: 1.4rem;
+	line-height: 3.6rem;
+	color: #696556
+}
+#features button {
+	flex-basis:14.22vw;
+	max-width: 165px;
+	min-width: 135px;
+	height: 4.75vw;
+	max-height: 55px;
+	min-height: 40px;
+	background-color: #ff8261;
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: bold;
 	border: none;
 	box-shadow: none;
 	padding:0 6px
 }
 
+
 /*классы общего использования блоками
 *
 *
 *определяет размер блоков, являющихся обертками, для установки ширины
- контента страницы и позиционирования по центру
+ контента страницы и позиционирования по центру   
 */
 .size {width: 1160px;
 	margin: 0 auto;
@@ -181,13 +290,26 @@ header nav li a {
 *
 */
 .flex-col {flex-direction: column;}
-
+.flex-wr-bt-start {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: flex-start;
+}
 .flex-wr-bt-c {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
+}
+.flex-wr-bt-end {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: flex-end;
 }
 .flex-wr-c-c {
 	display: flex;
@@ -203,6 +325,13 @@ header nav li a {
 	align-items: center;
 	align-content:center;
 }
+.flex-wr-start-end {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+	align-content:flex-end;
+}
 .flex-nwr-bt-c {
 	display: flex;
 	flex-wrap: nowrap;
@@ -216,4 +345,11 @@ header nav li a {
 	justify-content: flex-start;
 	align-items: center;
 	align-content:center;
+}
+.flex-nwr-bt-end {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: flex-end;
 }

@@ -1,5 +1,6 @@
 @media screen and (max-width: 1200px)
-{#wrapper_nav, #black_wrapper, #wrapper_search_form {
+{#wrapper_nav, #black_wrapper, #wrapper_search_form, #wrapper_features_content,
+ #wrapper_benefits_content{
 	width:98vw;
     margin-top:0 5px }
 }
@@ -31,9 +32,37 @@ header nav ul {
 #button_menu:hover + ul {height: 50vw}
 
 header ul:hover {height: 50vw}
+#wrapper_features {flex-basis:52.29vw}
+#features {width: 52.29vw}
+#description_1_2 {	flex-basis: 52.29vw}
+.flex-wr-bt-start-1035 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+}
 
+@media screen and (max-width: 860px)
+{
+	#wrapper_features {flex-basis: 100%}
+	#wrapper_features>div {
+		flex-basis: 52.35vw;
+        min-width: 440px
+	    }
+	#features_logo {margin-top: 3vw}
+	.flex-c-850 {justify-content: center;}
+	.flex-wr-c-c-850 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center
+	}
+}
 @media screen and (max-width: 710px)
-{#wrapper_search_form {width: 77.46vw}
+{#wrapper_search_form, #wrapper_benefits_content {width: 77.46vw}
 #search_form {min-width: 300px}
 #search_form form {flex-basis: 100%;
 min-width: 0px}
@@ -71,6 +100,9 @@ min-height: 30px
 }
 #logo_header {padding: 2.45% 0;
 justify-content: center;}
+/*features розовый блок*/
+#description_1_2 {min-width: 400px}
+#wrapper_features>div {min-width: 400px}
 }
 
 @media screen and (max-width: 565px)
@@ -80,26 +112,30 @@ justify-content: center;}
  #registr button {margin-right:4%}
 }
 
-@media screen and (max-width: 500px)
-{#black_wrapper img {width: 80%}}
-
-@media screen and (max-width: 482px)
+@media screen and (max-width: 555px)
 {
-	.flex-wr-c-c-480 {
+.flex-wr-c-c-555 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 }
-.flex-col-480 {flex-direction: column;}
+.flex-col-555 {flex-direction: column;}
 #search_form select {
 	width: 200px;
     max-width: 200px}
 #search_form button {
 	flex-basis: 200px;
-	width: 200px: 
+	width: 200px
 }
+/*розовый блок */
+#hot_logo {margin: 0 auto}
+#description_1_2 {min-width: 208px}
+#wrapper_features>div {min-width: 208px}
 }
+
+@media screen and (max-width: 500px)
+{#black_wrapper img {width: 80%}}
 
 
