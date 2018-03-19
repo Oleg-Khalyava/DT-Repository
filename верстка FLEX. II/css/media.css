@@ -1,12 +1,21 @@
 @media screen and (max-width: 1200px)
 {#wrapper_nav, #black_wrapper, #wrapper_search_form, #wrapper_features_content,
- #wrapper_benefits_content{
+ #wrapper_benefits_content, #wrapper_hosting_content{
 	width:98vw;
     margin-top:0 5px }
 }
 
+@media screen and (max-width: 1160px)
+{.wrapper_hosting_1 {padding: 2.67vw 3.40vw 2.24vw}}
 
-
+@media screen and (max-width: 1110px)
+{   .flex-с-1110 {justify-content: center;}
+	.wrapper_hosting_2 {
+	flex-basis: 60.0vw;
+	max-width: 700px;
+	min-width: 400px
+}
+}
 
 @media screen and (max-width: 1055px)
 {#search_domain {margin-bottom: 1vw}}
@@ -62,7 +71,8 @@ header ul:hover {height: 50vw}
 	}
 }
 @media screen and (max-width: 710px)
-{#wrapper_search_form, #wrapper_benefits_content {width: 77.46vw}
+{#wrapper_search_form, #wrapper_benefits_content, #wrapper_hosting_content 
+	{width: 77.46vw}
 #search_form {min-width: 300px}
 #search_form form {flex-basis: 100%;
 min-width: 0px}
@@ -130,9 +140,17 @@ justify-content: center;}
 	width: 200px
 }
 /*розовый блок */
+#wrapper_hot_content {margin: 0 2vw}
 #hot_logo {margin: 0 auto}
 #description_1_2 {min-width: 208px}
 #wrapper_features>div {min-width: 208px}
+/*white-3 блок*/
+.wrapper_hosting_2 {
+	flex-basis: 220px;
+	min-width: 220px
+}
+.wrapper_hosting_1 {flex-basis: 177px}
+.flex-x-555{justify-content: center;}
 }
 
 @media screen and (max-width: 500px)

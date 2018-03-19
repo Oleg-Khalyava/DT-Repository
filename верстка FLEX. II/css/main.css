@@ -189,10 +189,7 @@ header nav li a {
 */
 #pink {background-color: #fffbde}
 #wrapper_features_content {padding: 6.89vw 0 10.6vw 0}
-#wrapper_hot_content {
-	width: 358px;
-    margin: 0 2vw 
-}
+#wrapper_hot_content {width: 358px}
 #hot {
 	background-color: #fff;
 	padding:7.82% 11.73% 10.06% 7.26%;
@@ -263,7 +260,80 @@ header nav li a {
 	padding:0 6px
 }
 
-
+/* блок Hosting (white_3) блока main
+*
+*
+*/
+#white_3 {background-color: #fff}
+#wrapper_hosting_content {padding: 7.58vw 0 9.74vw}
+#wrapper_hosting_4 {
+	flex-basis: 100%;
+	max-width: 1137px
+}
+.wrapper_hosting_2 {
+	flex-basis: 47.77vw;
+	max-width: 554px;
+	min-width:530px
+}
+.wrapper_hosting_1 {
+	border: 1px solid #e1eff4;
+    padding: 30.97px 39.44px 25.98px;
+    margin-top: 2.76vw 
+    }
+.wrapper_hosting_1 h3 {
+	font-size: 1.4rem;
+	color: #556b72;
+	text-align: center
+}
+.wrapper_hosting_1 h3::first-line {font-size: 5.0rem}
+.wrapper_hosting_1 h3 span {font-weight: bold}
+.wrapper_hosting_1 p {
+	font-size: 1.4rem;
+	line-height: 4.0rem;
+	color: #8d9198;
+	text-align: center
+}
+.wrapper_hosting_1 hr {
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #f0f4f7; /* Цвет линии для остальных браузеров */
+    background-color: #f0f4f7; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px;}
+.wrapper_hosting_1 a {
+	text-decoration: none;
+    display: block} 
+.button_plan {margin: 2.41vw 0 3.44vw}
+.button_signup {margin-top: 2.8vw }
+.wrapper_hosting_1 button {
+	display: block;
+	margin: 0 auto}
+.button_plan button {
+	width:15.69vw;
+	max-width: 182px;
+	min-width: 135px;
+	height: 3.45vw;
+	max-height: 40px;
+	min-height: 35px;
+	background-color: #52cbf8;
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: bold;
+	border: none;
+	box-shadow: none;
+	padding:0 6px}
+.button_signup button {
+	width:10.0vw;
+	max-width: 116px;
+	min-width: 100px;
+	height: 3.79vw;
+	max-height: 44px;
+	min-height: 35px;
+	background-color: #ff8261;
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: bold;
+	border: none;
+	box-shadow: none;
+	padding:0 6px}
 /*классы общего использования блоками
 *
 *
@@ -324,6 +394,13 @@ header nav li a {
 	justify-content: flex-start;
 	align-items: center;
 	align-content:center;
+}
+.flex-wr-start-start {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content:flex-start;
 }
 .flex-wr-start-end {
 	display: flex;
