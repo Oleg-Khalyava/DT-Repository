@@ -7,14 +7,6 @@ html{
 	line-height: 10px;
 	color: black
 }
-
-#logo{flex-basis: 150px;
-    margin-right: 4.35%}
-#logo h3 {
-	font-size: 2.0rem;
-	color: #161920;
-	font-weight: bold
-}
 #registr {
 	font-size: 1.4rem;
 	color: #9ba4b0;
@@ -127,7 +119,6 @@ header nav li a {
 	font-size: 1.4rem;
 	border: 1px solid #dfeef3
 }
-#search_form input::placeholder {color: #a0a9b6}
 #search_form select {
 	flex-basis:14.22vw; 
 	max-width:165px;
@@ -334,6 +325,79 @@ header nav li a {
 	border: none;
 	box-shadow: none;
 	padding:0 6px}
+/*блок blue_2 Блока main
+*
+*
+*/
+#blue_2 {
+	background-color: #e7f4f8;
+	padding: 5.60vw 0 7.58vw
+}
+#blue_2 form {
+	flex-basis: 77.15vw;
+    max-width:895px;
+    min-width: 815px}
+#blue_2 input {
+	flex-basis: 60.34vw;
+	max-width:700px;
+	min-width: 500px;
+	height: 4.75vw;
+	max-height: 55px;
+	min-height: 40px;
+	color: #a0a9b6;
+	font-size: 1.4rem;
+	border: 1px solid #dfeef3;
+	margin-top: 1vw 
+}
+#blue_2 button {
+	flex-basis:16.81vw;
+	max-width: 195px;
+	min-width: 135px;
+	height: 4.75vw;
+	max-height: 55px;
+	min-height: 40px;
+	background-color: #ff8261;
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: bold;
+	border: none;
+	box-shadow: none;
+	padding:0 6px;
+	margin-top: 1vw
+}
+/*блок footer
+*
+*
+*/
+footer {background-color: #4c515b}
+#wrapper_footer_content {padding: 8.62vw 0 9.48vw}
+#wrapper_footer_logo h3 {
+	margin-left: 7px;
+    color: #e7f4f8}
+#wrapper_footer_info {
+	max-width: 673px;
+	font-size: 1.4rem;
+ 	line-height: 3.0rem;
+ 	color:#909aad }
+
+#wrapper_footer_info_links {
+	flex-basis: 16.37vw;
+	max-width: 190px;
+	min-width: 145px;
+	margin-right: 120px 	
+}
+#wrapper_footer_info_links h3{flex-basis: 100%}
+#wrapper_footer_info_contact {margin-right: 90px}
+#wrapper_footer_info h3 {color:#fff}
+#wrapper_footer_info a {
+ 	text-decoration: none;
+ 	color: #909aad
+ }
+#wrapper_footer_info_links a{display: block}
+ #wrapper_footer_info a:hover {
+ 	text-decoration: underline;
+ 	color: blue}
+ #wrapper_footer_info span {color:#e7f4f8}
 /*классы общего использования блоками
 *
 *
@@ -347,14 +411,24 @@ header nav li a {
 
 .block_logo  h2 {
 		font-size: 3.0rem;
+		font-weight: bold;
 		line-height: 3.1rem;
 		color: #556b72
 }
 .block_logo h2:first-line{
 	font-size: 1.8rem;
+	font-weight: normal;
 	color: #859aa1
 }
-
+.color::placeholder {color: #a0a9b6}
+.padding_content_form {padding-left: 2.15vw}
+.logo_hosting{flex-basis: 150px;
+    margin-right: 4.13vw}
+.logo_hosting h3 {
+	font-size: 2.0rem;
+	color: #161920;
+	font-weight: bold
+}
 /* FLEX
 *
 *

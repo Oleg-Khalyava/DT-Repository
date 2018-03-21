@@ -1,12 +1,16 @@
 @media screen and (max-width: 1200px)
 {#wrapper_nav, #black_wrapper, #wrapper_search_form, #wrapper_features_content,
- #wrapper_benefits_content, #wrapper_hosting_content{
+ #wrapper_benefits_content, #wrapper_hosting_content, #wrapper_domain_name_content,
+  #wrapper_footer_content {
 	width:98vw;
     margin-top:0 5px }
 }
 
 @media screen and (max-width: 1160px)
-{.wrapper_hosting_1 {padding: 2.67vw 3.40vw 2.24vw}}
+{.wrapper_hosting_1 {padding: 2.67vw 3.40vw 2.24vw}
+#wrapper_footer_info_links {margin-right:10.34vw}
+#wrapper_footer_info_contact {margin-right:7.75vw}
+}
 
 @media screen and (max-width: 1110px)
 {   .flex-с-1110 {justify-content: center;}
@@ -34,6 +38,7 @@
 	visibility: visible
 }
 header nav ul {
+	width: 100%;
 	overflow: hidden;
 	height: 0;
 	position: absolute
@@ -61,6 +66,8 @@ header ul:hover {height: 50vw}
         min-width: 440px
 	    }
 	#features_logo {margin-top: 3vw}
+	/*0блок blue_2*/
+	#blue_2 form {min-width: 660px}
 	.flex-c-850 {justify-content: center;}
 	.flex-wr-c-c-850 {
 		display: flex;
@@ -69,9 +76,13 @@ header ul:hover {height: 50vw}
 		align-items: center;
 		align-content: center
 	}
+	/*footer*/
+	#wrapper_footer_info_links {margin-right:4.26vw}
+    #wrapper_footer_info_contact {margin-right:3.28vw}
 }
 @media screen and (max-width: 710px)
-{#wrapper_search_form, #wrapper_benefits_content, #wrapper_hosting_content 
+{#wrapper_search_form, #wrapper_benefits_content, #wrapper_hosting_content,
+ #wrapper_domain_name_content, #wrapper_footer_content 
 	{width: 77.46vw}
 #search_form {min-width: 300px}
 #search_form form {flex-basis: 100%;
@@ -96,6 +107,11 @@ min-width: 101px;
 height: 5.63vw;
 min-height: 30px
 }
+/*блок blue_2*/
+#blue_2 form {min-width: 401px}
+#blue_2 input {min-width: 400px}
+/*footer*/
+#wrapper_footer_info {margin-top: 3vw}
 
 
 
@@ -150,6 +166,15 @@ justify-content: center;}
 	min-width: 220px
 }
 .wrapper_hosting_1 {flex-basis: 177px}
+/*блок blue_2*/
+#blue_2 form {min-width: 301px}
+#blue_2 input {min-width: 300px}
+/*footer*/
+#wrapper_footer_content {width: 174px}
+#wrapper_footer_info {flex-basis: 174px}
+#wrapper_footer_info div {margin-top: 1vw}
+#wrapper_footer_info_links {margin-right:0}
+#wrapper_footer_info_contact {margin-right:0}
 .flex-x-555{justify-content: center;}
 }
 
